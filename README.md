@@ -22,8 +22,3 @@ You should shift to left for one bit to your slave address when you change it. F
 I used a 5W power led as the transmitter's light source, and I used BPW21, a photodiode, in order to capture signals. In order to communciate over visible light, I used OOK (On-Off Keying) modulation. For serial communication, I used UART protocol.
 
 In this project, communication is provided at 115200 baud rate in line with the owned resources. It does not work adaptively yet. In other words, communication can be achieved at a certain light intensity or distance. An AGC can solve this problem.
-
-If you have a suggestion or a question, or just want to say hi, please contact me!
-
-- Website: https://yetkinakyuz.com
-- Mail: contact@yetkinakyuz.com
